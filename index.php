@@ -32,9 +32,10 @@
 //    echo "$key => $val<br/>";
 //  }
 
-$files = glob('C:\*');
-foreach ($files as $file) {
-    echo htmlentities(file_get_contents($file)) . '<br>';
-    echo '<hr/>';
-}
+// $files = glob('C:\*');
+// foreach ($files as $file) {
+//     echo htmlentities(file_get_contents($file)) . '<br>';
+//     echo '<hr/>';
+// }
 
+echo 'hello';
